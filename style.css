@@ -9,6 +9,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .items-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, 14%);
@@ -45,5 +49,10 @@ img {
 }
 
 footer {
-    background-color: black;
+    background-color: white;
+}
+
+#googleplay, #appstore {
+    border: 2px solid black;
+    padding-top: 15px;
 }
