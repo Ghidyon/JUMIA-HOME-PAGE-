@@ -1,0 +1,45 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #282828;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.items-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 14%);
+    border: 2px solid green;
+    place-items: center;
+    grid-column-gap: 10px;
+}
+
+.item-wrapper {
+    width: 100%;
+}
+
+h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: .9rem;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+img {
+    width: 100%;
+}
+
+.section-4-banner {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
