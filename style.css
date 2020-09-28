@@ -7,7 +7,6 @@
 body {
     color: #282828;    
     font-family: 'Roboto', sans-serif;
-
     background: #f0efef;
 }
 
@@ -29,6 +28,7 @@ img {
     grid-template-columns: repeat(auto-fit, 50%);
     border: 2px solid green;
     place-items: center;
+    background: white;
 }
 
 .item-wrapper {
@@ -81,6 +81,34 @@ h3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border: 1px solid brown;
+}
+
+.section-4-about {
+    background: white
+}
+
+.section-4-about h5 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.section-4-about p {
+    font-size: .75rem;
+}
+
+.footer-mobile {
+    background: #282828;
+    color: white;    
+    font-size: .7rem;
+}
+
+.go-to-top {
+    background: #323232;
+}
+
+.footer-mobile p {
+    color: gray;
+    font-size: .9rem;
 }
 
 footer {
