@@ -1,7 +1,8 @@
 *, *::after, *::before {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
+    scroll-behavior: smooth;
 }
 
 body {
@@ -99,16 +100,40 @@ h3 {
 .footer-mobile {
     background: #282828;
     color: white;    
-    font-size: .7rem;
+    font-size: .65rem;
 }
 
 .go-to-top {
     background: #323232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: .5rem;
+}
+
+.footer-mobile-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    place-content: center;
+    border: 1px solid #464646;
+    padding: .5rem 0;
+}
+
+.footer-mobile-links a {
+    /* border: 2px solid blue; */
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.footer-mobile-links a:last-child {
+    grid-column: span 2;
 }
 
 .footer-mobile p {
-    color: gray;
-    font-size: .9rem;
+    color: #75757A;;
+    font-size: .77rem;
+    text-align: center;
+    padding: .4rem 0 .8rem 0;
 }
 
 footer {
