@@ -24,6 +24,10 @@ img {
     width: 100%;
 }
 
+.section-4-container {
+    margin-bottom: 1rem;
+}
+
 .items-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, 50%);
@@ -85,16 +89,27 @@ h3 {
 }
 
 .section-4-about {
-    background: white
+    background: white;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
 }
 
 .section-4-about h5 {
     font-size: 1.5rem;
     font-weight: lighter;
+    margin-top: .4rem;
+}
+
+.section-4-about h6 {
+    font-weight: lighter;
+    font-size: 1.13rem;
+    margin-top: .5rem;
 }
 
 .section-4-about p {
     font-size: .75rem;
+    margin-top: .5rem;
+    text-align: justify;
 }
 
 .footer-mobile {
